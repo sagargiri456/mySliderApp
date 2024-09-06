@@ -1,0 +1,17 @@
+.category-circle {
+  margin: 1rem;
+  border-radius: 100%;
+  background:url("https://png.pngtree.com/thumb_back/fh260/background/20211009/pngtree-bg-abstrack-pink-color-image_910529.png");
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  z-index: 2; /* Ensure it’s above other elements */
+}
+
+.category-circle img {
+  max-width: 100%;
+  max-height: 100%;
+}

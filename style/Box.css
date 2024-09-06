@@ -1,0 +1,21 @@
+.Box {
+  border: 2rem white;
+  width: 100%;
+  background-color: red;
+}
+/* Box.css */
+.category-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.category {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scroll-behavior: smooth; /* Enables smooth scrolling */
+  white-space: nowrap; /* Prevents wrapping, keeps items in a single row */
+  width: 300px; /* Or some specific width smaller than its content */
+}

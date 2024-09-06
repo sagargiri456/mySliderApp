@@ -1,0 +1,20 @@
+ul.grid-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.grid-list li {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+ul.grid-list li img {
+  width: 10rem;
+  height: 10rem;
+}
